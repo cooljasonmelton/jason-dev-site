@@ -11,11 +11,14 @@
     /* Font */
     font-size: max(1.7rem, 5vh);
 
+    /* Spacing */
+    padding: 2vh;
+
     /* Flexbox */
     display: flex;
     justify-content: space-around;
+}
 
-
-
-
+div.clicked{
+    text-decoration: underline;
 }
