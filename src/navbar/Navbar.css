@@ -1,0 +1,21 @@
+.Navbar{
+    /* Disable Highlight Text */
+    -webkit-user-select: none;       
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+
+    /* Color */
+    background-color: aliceblue;
+
+    /* Font */
+    font-size: max(1.7rem, 5vh);
+
+    /* Flexbox */
+    display: flex;
+    justify-content: space-around;
+
+
+
+
+}
