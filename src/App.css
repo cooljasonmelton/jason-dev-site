@@ -1,4 +1,7 @@
 div.title-navbar-div{
+    background-color: #151515;
+    border-left: 1vh solid #2046f5;
+
     margin: auto 0;
     display: flex;
     align-items: center;

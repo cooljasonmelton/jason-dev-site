@@ -6,9 +6,9 @@ import Landing from '../landing/Landing'
 class Navbar extends React.Component{
   state = {}
 
-  componentDidMount(){
-    this.setState({activeItem: "projects"})
-  }
+  // componentDidMount(){
+  //   this.setState({activeItem: "projects"})
+  // }
   
   handleClick = e =>{
     this.setState({

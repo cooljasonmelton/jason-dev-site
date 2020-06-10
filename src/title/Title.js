@@ -6,14 +6,14 @@ class Title extends React.Component{
   state = {}
   
   handleClick = () =>{
-    this.props.history.push(`/projects`)
+    this.props.history.push(`/`)
     window.location.reload()
   }
 
   render(){
     return (
       <div className="Title" onClick={this.handleClick} >
-        <div><u className='underline'>jason</u> <u className='underline'>melton</u></div> 
+        <div><u className='underline'>Jason</u> <u className='underline'>Melton</u></div> 
       </div>
     );
   }

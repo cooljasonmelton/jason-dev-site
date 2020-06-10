@@ -16,11 +16,11 @@ function App() {
           <Navbar/>
         </div>
         <Switch>
-          <Redirect exact from="/" to="/projects" />
-          <Route exact path="/projects" component={Landing} />
-          <Route exact path="/about" component={Landing} />
-          <Route exact path="/contact" component={Landing} />
-          <Route exact path="/blog" component={Landing} />
+          <Route exact path="/" component={Landing} />
+          <Route exact path="/projects" component={null} />
+          <Route exact path="/about" component={null} />
+          <Route exact path="/contact" component={null} />
+          <Route exact path="/blog" component={null} />
         </Switch>
       </div>
     </BrowserRouter>

@@ -6,13 +6,13 @@
     user-select: none; 
 
     /* Color */
-    background-color: #91CAF3;
+    background-color: #edf6fd;
     color: #151515;
 
     /* Font */
 
     /* Spacing */
-    margin: 1vh 2vw;
+    margin: 1vh 0 1vh 2vw;
     width: 20vw;
 
     /* Flexbox */
@@ -23,7 +23,7 @@
 
     /* Border */
     border-bottom: 1vw solid blue ;
-    border-radius: 1vw;
+    border-radius: 0.5vw 0 0 0.5vw;
 
     /* Pointer */
     cursor: pointer;
@@ -31,10 +31,12 @@
 
 div.Title > div{
     color: #151515;
-    margin: 1vh 1vw;
+    margin: 1vh 0;
     font-weight: bold;
     font-size: max(1.2rem, 4vh);
     color: #151515;
+    overflow: hidden;
+    white-space: nowrap;
 }
 .underline{
     text-decoration-color: #ED254E;
