@@ -1,4 +1,4 @@
-.Navbar{
+div.Navbar{
     /* Disable Highlight Text */
     -webkit-user-select: none;       
     -moz-user-select: none; 
@@ -6,19 +6,35 @@
     user-select: none; 
 
     /* Color */
-    background-color: aliceblue;
+    background-color: #91CAF3;
+    color: #151515;
 
     /* Font */
     font-size: max(1.7rem, 5vh);
 
     /* Spacing */
-    padding: 2vh;
+    margin: 1vh 5vw;
 
     /* Flexbox */
     display: flex;
     justify-content: space-around;
+
+    /* Border */
+    border-bottom: 1vw solid blue ;
+    border-radius: 1vw;
+}
+
+div.Navbar > div{  
+    margin: 1vh 1vw;
+}
+
+div.Navbar > div:hover{
+    text-decoration: underline;
+    text-decoration-color: #ED254E;
+    cursor: pointer;
 }
 
 div.clicked{
     text-decoration: underline;
+    text-decoration-color: #ED254E;
 }
