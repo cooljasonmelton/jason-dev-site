@@ -1,13 +1,9 @@
-import React from 'react';
-import './Landing.css';
+import React from 'react'
 
 const Landing = () => {
   return (
-    <div className="Landing">
-      My Projects
-
-    </div>
-  );
+    <div>landing</div>
+  )
 }
 
-export default Landing;
+export default Landing

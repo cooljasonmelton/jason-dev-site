@@ -1,6 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 import { withRouter } from 'react-router-dom'
+import Landing from '../landing/Landing'
 
 class Navbar extends React.Component{
   state = {}

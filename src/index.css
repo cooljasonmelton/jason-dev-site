@@ -7,8 +7,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #EDF6FD;
   background: radial-gradient(circle, #EDF6FD 60%, #ffffff 100%);
-  
-
 }
 
 code {
