@@ -43,12 +43,12 @@
 }
 
 .landing-title{
-    font-size: 3rem;
+    font-size: 7vh;
     width: 30vw;
     text-decoration: underline;
     text-decoration-color: #ED254E;
 }
 .landing-subtitle{
-    font-size: 1.5rem;
+    font-size: 3vh;
     width: 20vw;
 }

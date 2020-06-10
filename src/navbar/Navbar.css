@@ -14,7 +14,7 @@ div.Navbar{
 
     /* Spacing */
     margin: 1vh 2vw 1vh 0;
-    width: 100vw;
+    width: 90vw;
 
     /* Flexbox */
     display: flex;
@@ -27,7 +27,7 @@ div.Navbar{
 }
 
 div.Navbar > div{  
-    margin: 1vh 1vw;
+    margin: 1vh 0;
 }
 
 div.Navbar > div:hover{

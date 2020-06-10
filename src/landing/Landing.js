@@ -8,7 +8,7 @@ const Landing = () => {
       <div className='landing'>
         <div className="landing-text">
           <h1 className="landing-title">What's up, I'm Jason Melton.</h1>
-          <h3 className="landing-subtitle">I'm a software developer from Chicago, IL. I can make websites. Want me to?</h3>
+          <h3 className="landing-subtitle">I'm a software developer from Chicago, IL. I can make websites. Want me to make you one?</h3>
         </div>
         <div>
           <img className="jasonpic" src={jasonpic} />
