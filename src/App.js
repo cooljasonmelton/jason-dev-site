@@ -3,14 +3,17 @@ import './App.css';
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
 import Navbar from './navbar/Navbar'
 import Landing from './landing/Landing'
+import Title from './title/Title'
+
 
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Navbar/>
-        <div className="">
+        <div className="title-navbar-div">
+          <Title/>
+          <Navbar/>
         </div>
         <Switch>
           <Redirect from="/" to="/home" />

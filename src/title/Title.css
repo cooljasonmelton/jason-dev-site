@@ -1,0 +1,12 @@
+.Title{
+    line-height: 1;
+    width: 20vw;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+
+}
+
+div.Title > h1{
+    font-size: max(1.7rem, 5vh);
+}

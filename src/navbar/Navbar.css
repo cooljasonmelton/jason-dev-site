@@ -13,7 +13,8 @@ div.Navbar{
     font-size: max(1.7rem, 5vh);
 
     /* Spacing */
-    margin: 1vh 5vw;
+    margin: 1vh 1vw;
+    width: 50vw;
 
     /* Flexbox */
     display: flex;

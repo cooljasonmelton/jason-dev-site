@@ -19,10 +19,10 @@ class Navbar extends React.Component{
       <div className="Navbar" >
         <div  
           onClick={this.handleClick}
-          className={activeItem === "home" ? "clicked" : ""}
-          data-space="home" 
+          className={activeItem === "projects" ? "clicked" : ""}
+          data-space="projects" 
         >
-          home
+          projects
         </div>
         <div  
           onClick={this.handleClick}
@@ -33,17 +33,17 @@ class Navbar extends React.Component{
         </div>
         <div  
           onClick={this.handleClick}
-          className={activeItem === "projects" ? "clicked" : ""}
-          data-space="projects" 
-        >
-          projects
-        </div>
-        <div  
-          onClick={this.handleClick}
           className={activeItem === "contact" ? "clicked" : ""}
           data-space="contact" 
         >
           contact
+        </div>
+        <div  
+          onClick={this.handleClick}
+          className={activeItem === "blog" ? "clicked" : ""}
+          data-space="blog" 
+        >
+          blog
         </div>
       </div>
     );
