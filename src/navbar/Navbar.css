@@ -10,7 +10,7 @@ div.Navbar{
     color: #151515;
 
     /* Font */
-    font-size: max(1.5rem, 4.5vh);
+    font-size: 4.5vh;
 
     /* Spacing */
     margin: 1vh 2vw;

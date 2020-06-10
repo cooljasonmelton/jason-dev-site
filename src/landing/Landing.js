@@ -1,9 +1,10 @@
 import React from 'react';
 import './Landing.css';
 
-function Landing() {
+const Landing = () => {
   return (
     <div className="Landing">
+      My Projects
 
     </div>
   );

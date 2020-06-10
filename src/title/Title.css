@@ -17,7 +17,8 @@
 
     /* Flexbox */
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     flex-wrap: nowrap;
 
     /* Border */
@@ -30,10 +31,11 @@
 
 div.Title > div{
     color: #151515;
-    margin: 1vh 0;
-    white-space: nowrap;
-    overflow: hidden;
+    margin: 1vh 1vw;
     font-weight: bold;
-    font-size: max(1.5rem, 4.5vh);
+    font-size: max(1.2rem, 4vh);
     color: #151515;
+}
+.underline{
+    text-decoration-color: #ED254E;
 }

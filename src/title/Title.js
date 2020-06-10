@@ -13,7 +13,7 @@ class Title extends React.Component{
   render(){
     return (
       <div className="Title" onClick={this.handleClick} >
-        <div>Jason Melton</div> 
+        <div><u className='underline'>jason</u> <u className='underline'>melton</u></div> 
       </div>
     );
   }
