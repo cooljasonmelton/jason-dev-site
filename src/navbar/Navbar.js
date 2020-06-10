@@ -4,9 +4,12 @@ import { withRouter } from 'react-router-dom'
 
 class Navbar extends React.Component{
   state = {}
+
+  componentDidMount(){
+    this.setState({activeItem: "projects"})
+  }
   
   handleClick = e =>{
-    console.log(e.target)
     this.setState({
       activeItem: e.target.dataset.space
     })

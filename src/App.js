@@ -16,8 +16,8 @@ function App() {
           <Navbar/>
         </div>
         <Switch>
-          <Redirect from="/" to="/home" />
-          <Route exact path="/home" component={Landing} />
+          <Redirect from="/" to="/projects" />
+          <Route exact path="/projects" component={Landing} />
         </Switch>
       </div>
     </BrowserRouter>

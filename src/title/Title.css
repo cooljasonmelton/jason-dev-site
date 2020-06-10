@@ -1,12 +1,39 @@
 .Title{
-    line-height: 1;
-    width: 20vw;
-    display: flex;
-    align-items: stretch;
-    justify-content: center;
+    /* Disable Highlight Text */
+    -webkit-user-select: none;       
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
 
+    /* Color */
+    background-color: #91CAF3;
+    color: #151515;
+
+    /* Font */
+
+    /* Spacing */
+    margin: 1vh 2vw;
+    width: 20vw;
+
+    /* Flexbox */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+
+    /* Border */
+    border-bottom: 1vw solid blue ;
+    border-radius: 1vw;
+
+    /* Pointer */
+    cursor: pointer;
 }
 
-div.Title > h1{
-    font-size: max(1.7rem, 5vh);
+div.Title > div{
+    color: #151515;
+    margin: 1vh 0;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: max(1.5rem, 4.5vh);
+    color: #151515;
 }
