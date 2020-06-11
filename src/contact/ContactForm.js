@@ -13,21 +13,27 @@ class ContactForm extends React.Component{
         }
     }
 
+    handleChange = e => {
+        this.setState({ [e.target.name]: e.target.value })
+    }
+
+
+
 
     render(){
         return (
             <form className="contact-form">
                 <label>
                     Name:<br/>
-                    <input type="text" name="name" />
+                    <input onChange={this.handleChange} type="text" name="name" value={this.state.name}/>
                 </label>
                 <label>
                     Email:<br/>
-                    <input type="text" name="email" />
+                    <input onChange={this.handleChange} type="text" name="email" value={this.state.email} />
                 </label>
                 <label>
                     Message:<br/>
-                    <textarea type="textarea" name="message" />
+                    <textarea onChange={this.handleChange} type="textarea" name="message" value={this.state.message}/>
                 </label>
                 <input type="submit" value="Submit" />
             </form>
