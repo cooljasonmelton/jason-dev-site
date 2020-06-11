@@ -1,0 +1,19 @@
+h3.contact-info > u {
+    text-decoration: underline;
+    text-decoration-color: #ED254E;
+}
+
+form.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+
+form.contact-form > label > input, textarea, button {
+    width: 20vw;
+}
+
+form.contact-form > input, label {
+    width: 10vw;
+}

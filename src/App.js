@@ -4,6 +4,8 @@ import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
 import Navbar from './navbar/Navbar'
 import Landing from './landing/Landing'
 import Title from './title/Title'
+import Contact from './contact/Contact';
+
 
 
 
@@ -19,7 +21,7 @@ function App() {
           <Route exact path="/" component={Landing} />
           <Route exact path="/projects" component={null} />
           <Route exact path="/about" component={null} />
-          <Route exact path="/contact" component={null} />
+          <Route exact path="/contact" component={Contact} />
           <Route exact path="/blog" component={null} />
         </Switch>
       </div>
