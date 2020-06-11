@@ -3,6 +3,11 @@ h3.contact-info > u {
     text-decoration-color: #ED254E;
 }
 
+.contact-info {
+    padding-top: 2vh;
+    line-height: 0.2;
+}
+
 form.contact-form{
     display: flex;
     flex-direction: column;
