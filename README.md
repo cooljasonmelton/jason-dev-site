@@ -1,6 +1,6 @@
 # Software Developer Portfolio of Jason 
 
-## Made with 
+### Made with:
 React and CSS
 
-### Made by Jason Melton
+#### Made by Jason Melton
