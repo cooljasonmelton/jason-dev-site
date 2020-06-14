@@ -7,3 +7,8 @@ div.title-navbar-div{
     align-items: center;
     justify-content: space-between;
 }
+
+.App{
+    display: flex;
+    flex-direction: column;
+}
