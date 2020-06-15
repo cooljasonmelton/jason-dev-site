@@ -1,0 +1,33 @@
+.blog-div {
+    width: 70vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+}
+
+.blog-pic{
+    color: #ADD7F6;
+    width: 40vw;
+    margin: 1vh;
+}
+
+.visit-blog{
+    color: #ADD7F6;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.visit-blog:hover{
+    color: #ED254E;
+    cursor: pointer;
+}
+
+.title-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

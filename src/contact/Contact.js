@@ -29,13 +29,18 @@ class Contact extends React.Component {
         console.log('default')
     }
   }
-  
-  handleCopy = e => {
+ 
+  handleCopy = () => {
     navigator.clipboard.writeText('jason.melton2@gmail.com')
     this.setState(prevState => ({ copied: !prevState.copied }));
+    let timesRun = 0
+    let timer = setInterval(() => {
+      this.setState({ copied: false })
+      timesRun ++
+      if (timesRun === 1) clearInterval(timer)
+    }, 1700);
   }
-
-
+  
 
   render(){
   return (
