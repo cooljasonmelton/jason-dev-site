@@ -10,11 +10,12 @@ div.Navbar{
     color: #151515;
 
     /* Font */
-    font-size: max(1.2rem, 4vh);
+    /* font-size: max(1.2rem, 4vh); */
+    font-size: calc(1.5rem + 0.5vh);
 
     /* Spacing */
-    margin: 1vh 2vw 1vh 0;
-    width: 90vw;
+    margin: 1vh 2vw;
+    width: 100vw;
 
     /* Flexbox */
     display: flex;
@@ -22,7 +23,7 @@ div.Navbar{
 
     /* Border */
     border-bottom: 1vw solid blue ;
-    border-radius: 0 0.5vw 0.5vw 0;
+    border-radius: 0.5vw;
     
 }
 
@@ -39,4 +40,17 @@ div.Navbar > div:hover{
 div.clicked{
     text-decoration: underline;
     text-decoration-color: #ED254E;
+}
+
+.underline{
+    padding: 0 0.2vw;
+    font-weight: 800;
+    text-decoration-color: #ED254E;
+}
+
+@media screen and (max-width: 600px) {
+    .Navbar div:not(:first-child) {display: none;}
+    /* .Navbar div.icon {
+      display: block;
+    } */
 }

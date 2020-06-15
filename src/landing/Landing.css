@@ -40,20 +40,18 @@
 
 .text-div{
     padding: 10px;
-    width: max(30vw, 55vh);
+    width: max(20vw, 30vh);
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
 }
 
 .title{
-    font-size: 3.5vw;
     font-size: calc(1.5rem + 1vw);
-    /* width: 30vw; */
     text-decoration: underline;
     text-decoration-color: #ED254E;
 }
 
 .subtitle{
     font-size: calc(0.5rem + 1vw);
-    /* width: 20vw; */
 }

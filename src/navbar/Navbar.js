@@ -5,10 +5,6 @@ import Landing from '../landing/Landing'
 
 class Navbar extends React.Component{
   state = {}
-
-  // componentDidMount(){
-  //   this.setState({activeItem: "projects"})
-  // }
   
   handleClick = e =>{
     this.setState({
@@ -17,10 +13,23 @@ class Navbar extends React.Component{
     this.props.history.push(`/${e.target.dataset.space}`)
   }
 
+  handleLogoClick = e => {
+    this.props.history.push(`/`)
+    window.location.reload()
+  }
+
   render(){
     const {activeItem} = this.state
     return (
       <div className="Navbar" >
+        <div  
+          onClick={this.handleLogoClick}
+          className={activeItem === "projects" ? "clicked" : ""}
+          data-space="projects" 
+        >
+          <u className="underline">Jason</u> 
+          <u className="underline">Melton</u> 
+        </div>
         <div  
           onClick={this.handleClick}
           className={activeItem === "projects" ? "clicked" : ""}

@@ -30,14 +30,20 @@
 }
 
 div.Title > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #151515;
-    margin: 1vh 0;
-    font-weight: bold;
-    font-size: max(1.2rem, 4vh);
+    margin: 1vh;
+    font-weight: 800;
+    /* font-size: max(1.2rem, 4vh); */
+    font-size: calc(1.5rem + 0.5vh);
     color: #151515;
-    overflow: hidden;
-    white-space: nowrap;
+    /* overflow: hidden;*/
+    white-space: nowrap; 
+    
 }
 .underline{
     text-decoration-color: #ED254E;
+    padding: 0 0.5vw;
 }
