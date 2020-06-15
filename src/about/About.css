@@ -1,0 +1,11 @@
+.text-container{
+width: 50vw;
+height: 50vh;
+overflow: scroll;
+}
+
+
+.about{
+    font-weight: bold;
+    font-size: calc(0.7rem + 0.66vh)
+}
