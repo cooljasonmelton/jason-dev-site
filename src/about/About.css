@@ -1,7 +1,7 @@
 .text-container{
-width: 50vw;
-height: 50vh;
-overflow: scroll;
+    width: 30vw;
+    height: 50vh;
+    overflow: scroll;
 }
 
 
