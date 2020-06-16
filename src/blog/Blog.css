@@ -10,11 +10,13 @@
 .blog-item{
     align-self: start;
 }
+.blog-item:hover {
+    opacity: 0.5;  
+}
 
 .blog-pic{
     color: #ADD7F6;
     width: 100%;
-
 }
 
 .visit-blog{

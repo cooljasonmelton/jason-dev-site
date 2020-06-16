@@ -2,6 +2,7 @@ import React from 'react'
 import '../landing/Landing.css'
 import './Contact.css'
 import copyPic from '../images/copy.svg'
+import jasonpic from '../images/jasonphone.png'
 
 
 
@@ -46,7 +47,10 @@ class Contact extends React.Component {
   return (
     <section className="spikes">
       <div className="main-div">
-        <h1 className="title">Contact:</h1>
+        <div className="pic-title-div">
+          <h1 className="title">Contact:</h1>
+          <img src={jasonpic} className="pic-contact"/>
+        </div>
         <div className="all-contacts">
           <div className="contact-div">
             <div className="copy-div">
@@ -66,9 +70,7 @@ class Contact extends React.Component {
           </div>
         </div>
       </div>
-      
-
-      </section>
+    </section>
       
     )
   }

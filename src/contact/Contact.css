@@ -55,3 +55,18 @@
 .display-off{
     display: none;
 }
+
+.pic-title-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.pic-contact{
+    width: auto;
+    height: 40vh;
+    border-radius: 50%;
+    border: 0.5vw solid blue;
+}
