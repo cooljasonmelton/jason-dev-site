@@ -40,6 +40,8 @@ div.Navbar > div:hover{
 div.clicked{
     text-decoration: underline;
     text-decoration-color: #ED254E;
+    -webkit-text-stroke: 0.1px #151515;
+    -webkit-text-fill-color: blue;
 }
 
 .underline{
@@ -48,9 +50,19 @@ div.clicked{
     text-decoration-color: #ED254E;
 }
 
+#name-nav{
+    font-weight: 800;
+    padding: 0.2vh 0.2vw 0 0;
+}
+
 @media screen and (max-width: 600px) {
     .Navbar div:not(:first-child) {display: none;}
     /* .Navbar div.icon {
       display: block;
     } */
+}
+
+
+#knockout {
+    font-weight: bolder;
 }

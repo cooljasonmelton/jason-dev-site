@@ -1,11 +1,20 @@
 .text-container{
     width: 30vw;
-    height: 50vh;
+    height: 40vh;
     overflow: scroll;
+    
+    border: 0.1vw solid blue;
+    border-radius: 1vw;
+    background-color: #91caf3;
+    color: #151515
 }
 
 
 .about{
     font-weight: bold;
     font-size: calc(0.7rem + 0.66vh)
+}
+
+.about-text{
+    margin: 1vh 1vw;
 }

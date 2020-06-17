@@ -4,7 +4,7 @@ import { withRouter } from 'react-router-dom'
 import Landing from '../landing/Landing'
 
 class Navbar extends React.Component{
-  state = {}
+  state = { activeItem: ""}
   
   handleClick = e =>{
     this.setState({
@@ -20,15 +20,16 @@ class Navbar extends React.Component{
 
   render(){
     const {activeItem} = this.state
+    console.log(activeItem)
     return (
       <div className="Navbar" >
-        <div  
+        <div 
+          id="knockout"
+          className={activeItem === "" ? "clicked" : ""}
+ 
           onClick={this.handleLogoClick}
-          className={activeItem === "projects" ? "clicked" : ""}
-          data-space="projects" 
         >
-          <u className="underline">Jason</u> 
-          <u className="underline">Melton</u> 
+          Jason Melton
         </div>
         <div  
           onClick={this.handleClick}

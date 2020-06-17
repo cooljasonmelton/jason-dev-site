@@ -28,7 +28,7 @@
     width: 70vw;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .pic{
