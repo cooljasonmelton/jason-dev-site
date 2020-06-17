@@ -9,6 +9,7 @@
 
 .blog-item{
     align-self: start;
+
 }
 .blog-item:hover {
     opacity: 0.8;  
