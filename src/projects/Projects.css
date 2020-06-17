@@ -22,11 +22,15 @@
     color: #ADD7F6;
     width: 100%;
     display: block;
+    border-radius: 1vh;
 }
 
 .pic-container{
     position: relative;
     width: 100%;
+    border-radius: 1vh;
+
+
 }
   
 .overlay {
@@ -41,6 +45,8 @@
     transition: .5s ease;
     background-color: #ADD7F6;
     font-size: min(1.1vw, 2.2vh);
+    border-radius: 1vh;
+
 }
   
 .pic-container:hover .overlay {
@@ -56,4 +62,5 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: left;
+    
 }
